@@ -1,0 +1,9 @@
+INDEX VERSION 1.132
+D:\Lea_Roncero\Code\SEProjekt\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1165383440.index
+\HikingSoftware\src\main\java
+D:\Lea_Roncero\Code\SEProjekt\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\469856952.index
+\HikingWebsite\src\main\java
+D:\Lea_Roncero\Code\SEProjekt\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1591368824.index
+\Test\src\main\java
+D:\Lea_Roncero\ProgrammingWorkspaces\SEProjekt\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1591368824.index
+\Test\src\main\java

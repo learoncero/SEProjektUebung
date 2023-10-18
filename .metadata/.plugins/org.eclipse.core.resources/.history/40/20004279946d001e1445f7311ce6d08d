@@ -1,0 +1,38 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	You can search in this page.
+	<br/><br/>
+	<input type="text" style="width:150px;background-color:blue">
+	<br/><br/>
+	<input type="button" style="width:150px;background-color:blue">
+	<br/><br/>
+	<input type="password" style="width:150px;background-color:blue">
+	<br/><br/>
+	<input type="email" style="width:150px;background-color:blue">
+	<br/><br/>
+	
+	<!-- Mit form kann man Daten schicken. Mit method="post" wird Passwort nicht im 
+	Suchstring als Klartext mitgeschickt. Nur für Login & für längere Formulare z.B. Wanderung erfassen. -->
+	<form action="search_results.jsp" method="post">
+		<input type="text" name="searchString" style="width:150px;background-color:grey">
+		<!-- Mit type submit werden alle Inhalte in dem Textfeld als Formular geschickt  -->
+		<input type="submit" value="Search" style="width:100px;height:50px">
+		<br/><br/>
+		<select name="difficulty">
+			<option value="1">Easy</option>
+			<option value="5">Difficult</option>
+		</select>
+	</form>
+
+	
+
+	
+</body>
+</html>

@@ -1,0 +1,29 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Search Forumular</title>
+</head>
+<body>
+Here are suggested hikes:
+
+<%
+	String search = request.getParameter("searchString");
+	int difficulty = Integer.parseInt(request.getParameter("difficulty"));
+	
+	// DB Abfrage
+	String[] results = new String[2];
+	results[0] = "Hike to the mountain";
+	results[1] = "Hike to the lake";
+%>
+
+<ul>
+	<li>blabla</li>
+	<li>blabla</li>
+	<li>blabla</li>
+</ul>
+
+</body>
+</html>
