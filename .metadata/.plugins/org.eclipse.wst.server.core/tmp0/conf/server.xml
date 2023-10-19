@@ -134,7 +134,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="D:\Lea_Roncero\Code\SEProjekt\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\Lea_Roncero\Code\SEProjekt\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Test" path="/Test" reloadable="true" source="org.eclipse.jst.jee.server:Test"/><Context docBase="D:\Lea_Roncero\Code\SEProjekt\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\HikingSoftware" path="/HikingSoftware" reloadable="true" source="org.eclipse.jst.jee.server:HikingSoftware"/></Host>
+      <Context docBase="D:\Lea_Roncero\Code\SEProjektTest\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\Lea_Roncero\Code\SEProjektTest\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Test" path="/Test" reloadable="true" source="org.eclipse.jst.jee.server:Test"/><Context docBase="D:\Lea_Roncero\Code\SEProjektTest\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\HikingSoftware" path="/HikingSoftware" reloadable="true" source="org.eclipse.jst.jee.server:HikingSoftware"/></Host>
     </Engine>
   </Service>
 </Server>

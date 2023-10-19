@@ -1,0 +1,4 @@
+127.0.0.1 - - [19/Oct/2023:12:22:35 +0200] "GET / HTTP/1.1" 404 762
+127.0.0.1 - - [19/Oct/2023:12:23:07 +0200] "GET /HikingSoftware/index.jsp HTTP/1.1" 200 231
+127.0.0.1 - - [19/Oct/2023:12:23:08 +0200] "GET /HikingSoftware/search.jsp HTTP/1.1" 200 1385
+127.0.0.1 - - [19/Oct/2023:12:23:19 +0200] "GET /HikingSoftware/search_results.jsp?searchString=abc&difficulty=1&description= HTTP/1.1" 200 598
