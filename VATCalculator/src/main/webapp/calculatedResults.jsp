@@ -16,15 +16,32 @@
     double vatAmount = vc.calculateVAT(amount, vatPercentage);
     double total = vc.calculateTotal(amount, vatPercentage);
 %>
-
-Amount: <%=amount%>
-<br>
-VAT: <%=vatAmount%> (<%=vatPercentage%>%)
-
-<br>
-<b>
-    Total: <%=total%>
-</b>
+<table>
+    <tr>
+        <td>
+            Amount:
+        </td>
+        <td>
+            <%=amount%>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            VAT:
+        </td>
+        <td>
+            <%=vatAmount%> (<%=vatPercentage%>%)
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>Total:</b>
+        </td>
+        <td>
+            <b><%=total%></b>
+        </td>
+    </tr>
+</table>
 
 <br><br>
 

@@ -9,17 +9,35 @@
 <br>
 
 <form action="calculatedResults.jsp">
-  Amount:
-  <input type="text" name="searchValue" style="width:150px" placeholder="Enter a value">
-  <br/><br/>
-  VAT:
-  <select name="vat">
-    <option value="10">10%</option>
-    <option value="20">20%</option>
-  </select>
-  <br/><br/>
-  <input type="submit" value="Calculate" style="width: 150px; height: 25px; background-color: lightblue">
+    <table>
+        <tr>
+            <th>
+                Amount:
+            </th>
+            <td>
+                <input type="text" name="searchValue" style="width:150px" placeholder="Enter a numeric value">
+            </td>
+        </tr>
+        <tr>
+            <th>
+                VAT:
+            </th>
+            <td>
+                <select name="vat">
+                    <option value="10">10%</option>
+                    <option value="20">20%</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th>
 
+            </th>
+            <td>
+                <input type="submit" value="Calculate" style="width: 150px; height: 25px; background-color: lightblue">
+            </td>
+        </tr>
+    </table>
 </form>
 </body>
 </html>
